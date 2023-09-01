@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "editdetails-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/editdetails/EditdetailsWebPart.js",
+          "manifest": "./src/webparts/editdetails/EditdetailsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EditdetailsWebPartStrings": "lib/webparts/editdetails/loc/{locale}.js"
+  }
+}
